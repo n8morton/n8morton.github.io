@@ -1,0 +1,137 @@
+
+#nav-name{
+    background-color: teal;
+    color: white;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 1.6em;
+    margin-left: 0px;
+    
+}
+
+body{
+    background: url("../images/background.jpg");
+}
+h1{
+    font-family: serif;
+    font-size: 1.7em;
+    color: teal;
+    font-weight: bold;
+    border-bottom: 2px solid #888;
+}
+
+nav{
+    width: 100%;
+}
+
+
+
+
+.container-fluid{
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+}  
+
+
+h3{
+    font-family: serif;
+    color: teal;
+    font-weight: bold;
+    text-align: center
+    
+}
+
+
+#profile-pic{
+    padding-right: 3%;
+}
+
+p{
+    
+    padding-right: 3%;
+}
+
+.contact-images{
+    height: 64px;
+    width: 64px;
+
+}
+
+.panel-body{
+    padding: 15px 15px 15px 11%;
+
+}
+
+
+    
+
+
+#git{
+
+    position: relative;
+    animation-name: spin1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+    width: 30%;
+    height: auto;
+    height: auto;    
+    
+    
+}
+
+@keyframes spin1 {
+   
+    20%  {transform: rotate(360deg);}
+    100%  {transform: rotate(360deg);}
+}
+
+#lin{
+
+    position: relative;
+    animation-name: spin2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 4.15s;
+    width: 30%;
+    height: auto;
+    
+    
+}
+
+@keyframes spin2 {
+   
+    20%  {transform: rotate(360deg);}
+    100%  {transform: rotate(360deg);}
+}
+
+#stk{
+
+    position: relative;
+    animation-name: spin3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 4.3s;
+    width:30%;
+    height: auto;
+    
+    
+    
+}
+
+@keyframes spin3 {
+   
+    20%  {transform: rotate(360deg);}
+    100%  {transform: rotate(360deg);}
+}
+
+/* portfolio styles */
+
+.port-images{
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
